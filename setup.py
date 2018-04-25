@@ -2,7 +2,7 @@
 
 See:
 https://packaging.python.org/en/latest/distributing.html
-https://github.com/afni/afni/src/python_scripts/afni_python
+https://github.com/afni/afni/src/python_scripts/afnipython
 """
 from setuptools import setup
 
@@ -26,14 +26,14 @@ setup(
     # package, this name will be registered for you. It will determine how
     # users can install this project, e.g.:
     #
-    # $ pip install afni_python
+    # $ pip install afnipython
     #
     # And where it will live on PyPI: https://pypi.org/project/sampleproject/
     #
     # There are some restrictions on what makes a valid project name
     # specification here:
     # https://packaging.python.org/specifications/core-metadata/#name
-    name='afni_python',  # Required
+    name='afnipython',  # Required
 
     # Versions should comply with PEP 440:
     # https://www.python.org/dev/peps/pep-0440/
@@ -74,7 +74,7 @@ setup(
     #
     # This field corresponds to the "Home-Page" metadata field:
     # https://packaging.python.org/specifications/core-metadata/#home-page-optional
-    url='https://github.com/afni/afni/src/python_scripts/afni_python',  # Optional
+    url='https://github.com/afni/afni/src/python_scripts/afnipython',  # Optional
 
     # This should be your name or the name of the organization which owns the
     # project.
@@ -136,7 +136,7 @@ setup(
     # dependencies). Users will be able to install these using the "extras"
     # syntax, for example:
     #
-    #   $ pip install afni_python[dev]
+    #   $ pip install afnipython[dev]
     #
     # Similar to `install_requires` above, these must be valid existing
     # projects.
@@ -186,6 +186,6 @@ setup(
     project_urls={  # Optional
         'Bug Reports': 'https://github.com/afni/afni/issues',
         'Funding': 'https://donate.pypi.org',
-        'Source': 'https://github.com/afni/afni/src/python_scripts/afni_python',
+        'Source': 'https://github.com/afni/afni/src/python_scripts/afnipython',
     },
 )
